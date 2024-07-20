@@ -8,8 +8,8 @@ import QueryMessage from "./components/Application/Query/QueryMessage";
 import ProfilePage from "./components/Application/Reusable/ProfilePage";
 import Login from "./components/Auth/Login";
 import Register from "./components/Auth/Register";
-import Contact from "./components/LandingPageTemp/Contact";
-import Home from "./components/LandingPageTemp/Home";
+import Contact from "./components/LandingPage/Contact";
+import Home from "./components/LandingPage/Home";
 
 const App = () => {
   return (
