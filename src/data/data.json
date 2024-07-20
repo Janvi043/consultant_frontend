@@ -1,0 +1,105 @@
+{
+  "Header": {
+    "title": "Spirea Arch",
+    "paragraph": "Empowering your business with innovative strategies and expert guidance, Spirea Arch transforms visions into reality. Partner with us for tailored solutions that drive success and growth."
+  },
+  "About": {
+    "paragraph": "At Spirea Arch, we are dedicated to transforming your vision into reality. With a team of seasoned experts, we provide top-notch consultancy services tailored to meet the unique needs of businesses and individuals. Our commitment to excellence, innovative strategies, and personalized approach set us apart in the industry.",
+    "Why": [
+      "Quality Services",
+      "Project Guidance",
+      "Internship Opportunities"
+    ],
+    "Why2": [
+      "Software Development",
+      "Career Guidance",
+      "Future Scope"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Internship Opportunities",
+      "text": "Unlock your potential with our diverse internship opportunities, where real-world experience meets mentorship and growth. Apply now to kickstart your career!"
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Project Guidance",
+      "text": "Transform your ideas into reality with expert project guidance, ensuring success at every stage. Partner with us for personalized support and strategic insights!"
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Software Development",
+      "text": "Empower your business with our cutting-edge software development solutions, tailored to meet your unique needs. Let's innovate together for a seamless digital transformation!"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],"Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Consultancy Services",
+      "text": "We offer quality Consultancy Services for guiding students in the right way.",
+      "text": "Elevate your business with our expert consultancy services, providing strategic insights and tailored solutions. Partner with us for sustainable growth and success!"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+.consultant-card {
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    padding: 15px; /* Reduced padding */
+    margin: 10px;
+    text-align: center;
+    width: calc(25% - 20px); /* Adjusted width to fit 4 cards in a row */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+    background-color: #f8f9fa;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .consultant-image {
+    width: 80px; /* Reduced image size */
+    height: 80px; /* Reduced image size */
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 10px; /* Reduced margin */
+    border: 2px solid #007bff;
+  }
+  
+  .consultant-card h3 {
+    color: #007bff;
+  }
+  
+  .consultant-card p {
+    color: #333;
+  }
+  

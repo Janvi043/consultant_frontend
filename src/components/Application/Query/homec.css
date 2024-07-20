@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url("homebg.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 60px;
+}
+
+.profile-btn {
+  background: none;
+  border: none;
+  color: grey;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  width: 45%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.query,
+.response {
+  margin-bottom: 20px;
+}
+
+.query h3,
+.response h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.query p,
+.response p {
+  margin: 5px 0;
+}
+
+.add-query-button {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.add-query-button button {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-query-button button:hover {
+  background-color: deepskyblue;
+}
