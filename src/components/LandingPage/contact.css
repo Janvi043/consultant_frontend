@@ -1,0 +1,11 @@
+.con_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mx-1{
+    padding: 5px ;
+    width:25%;
+    margin: 10px;
+    float: left;
+}

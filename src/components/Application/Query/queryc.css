@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('b.png') no-repeat center center fixed; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff; /* White background for header */
+    color: #333; /* Dark grey text color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  }
+  
+  header img {
+    height: 50px;
+  }
+  
+  header button {
+    padding: 10px 20px;
+    background-color: #fff; /* Match header background color */
+    color: #888; /* Light grey text color */
+    border: none; /* No border */
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header button:hover {
+    background-color: #f0f0f0; /* Slightly darker background on hover */
+    color: #666; /* Slightly darker text on hover */
+  }
+  
+  .forum-container {
+    max-width: 900px;
+    margin: 20px auto 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* White translucent box */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  .post-form {
+    margin-bottom: 40px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: dodgerblue;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Messages Styles */
+  .messages {
+    margin-top: 30px;
+  }
+  
+  .message {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .message:hover {
+    background-color: #fafafa;
+  }
+  
+  .message-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .message-author {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Individual Message Page Styles */
+  .message-details {
+    padding: 20px;
+  }
+  
+  .message-details .message-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .message-details .message-author {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .message-details button {
+    padding: 12px 24px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .message-details button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .forum-container {
+      padding: 15px;
+    }
+  
+    button, .message-details button {
+      width: 100%;
+    }
+  }
+  

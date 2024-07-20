@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("b.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.home-button {
+  background-color: transparent;
+  color: grey;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.home-button:hover {
+  background-color: #f0f0f0;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-inline: auto;
+}
+
+.form-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.form-left .form-group {
+  text-align: center;
+}
+
+.form-right {
+  width: 70%;
+  padding-left: 20px;
+}
+
+.form-right h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: dodgerblue;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: dodgerblue;
+  width: 128px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group input[type="date"] {
+  padding-right: 0;
+}
+
+.form-group input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.form-group .gender-label {
+  display: inline-block;
+  margin-right: 10px;
+  color: dodgerblue;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 12px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.form-group button:hover {
+  background-color: #1a75e8;
+}
+
+#profile-picture {
+  display: none;
+}
+
+#profile-preview {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-preview:hover {
+  opacity: 0.8;
+}
+
+#choose-file-button {
+  background: none;
+  border: none;
+  color: dodgerblue;
+  font-size: 14px;
+  cursor: pointer;
+}
