@@ -34,15 +34,25 @@ const ConsultantDirectory = () => {
     navigate("/profile");
   };
 
+  const logout = () => {
+    localStorage.removeItem("token");
+    navigate("/login");
+  };
+
   return (
     <>
       <header>
         <div className="logo">
           <img src="logo.png" alt="Logo" />
         </div>
-        <button className="profile-btn" onClick={redirectToProfile}>
-          Profile
-        </button>
+        <div>
+          <button className="profile-btn" onClick={logout}>
+            Logout
+          </button>
+          <button className="profile-btn" onClick={redirectToProfile}>
+            Profile
+          </button>
+        </div>
       </header>
       <div>
         {Object.entries(consultantsData).map(([field, consultants], index) => (

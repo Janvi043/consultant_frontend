@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./register.css";
 
@@ -33,9 +33,9 @@ const Register = () => {
         dob,
         education,
       });
-      localStorage.setItem("token", response.data.token);
 
-      if (response.status === 201) navigate("/app");
+      localStorage.setItem("token", response.data.token);
+      if (response.status === 200) navigate("/app");
     } catch (err) {
       setError("Registration failed. Please try again.");
     }
@@ -45,6 +45,10 @@ const Register = () => {
     e.preventDefault();
     handleRegister(username, password, email, city, zipcode, state, gender, mobile, address, dob, education);
   };
+
+  useEffect(() => {
+    if (localStorage.getItem("token")) navigate("/app");
+  }, []);
 
   return (
     <div className="register-container">

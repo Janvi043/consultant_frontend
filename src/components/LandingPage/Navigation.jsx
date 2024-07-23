@@ -6,12 +6,7 @@ export const Navigation = () => {
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
+          <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             {" "}
             <span className="sr-only">Toggle navigation</span>
           </button>
@@ -20,10 +15,7 @@ export const Navigation = () => {
           </a>{" "}
         </div>
 
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
+        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#about" className="page-scroll">
@@ -46,12 +38,17 @@ export const Navigation = () => {
               </a>
             </li>
             <li>
-              <Link to="/contact">
-              Contact
-              </Link>
+              <Link to="/contact">Contact</Link>
             </li>
-            <li><Link to="/login">Login
-            </Link></li>
+            <li>
+              {localStorage.getItem("token") ? (
+                <Link to="/app" style={{ backgroundColor: "rgba(0,0,255,0.4)", paddingInline: "16px", borderRadius: "4px", color: "white", fontWeight: "bold" }}>
+                  Dashboard
+                </Link>
+              ) : (
+                <Link to="/login">Login</Link>
+              )}
+            </li>
           </ul>
         </div>
       </div>
