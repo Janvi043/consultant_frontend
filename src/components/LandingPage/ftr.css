@@ -1,80 +1,79 @@
 .footer {
-    background-color: #333;
-    color: white;
-    height: min-content;
-    padding: 10px 0;
+  background-color: #333;
+  color: white;
+  height: min-content;
+  padding: 10px 0;
 }
 
 .footer h5 {
-    margin-bottom: 20px;
-    color: #fff;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 .footer p {
-    margin-bottom: 30px;
-    color: #aaa;
+  margin-bottom: 30px;
+  color: #aaa;
 }
 
 .footer ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .footer li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .footer a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer .social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .footer .social-links li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .footer .social-links a {
-    color: #fff;
-    font-size: 20px;
+  color: #fff;
+  font-size: 20px;
 }
 
 .footer form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer input[type="email"] {
-    width: 70%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px 0 0 5px;
-    margin-right: 5px;
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  margin-right: 5px;
 }
 
 .footer button[type="submit"] {
-    width: 25%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
+  width: 25%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
 }
 
 .footer .copyright {
-    text-align: center;
-    margin-top: 20px;
-    color: #aaa;
+  text-align: center;
+  margin-top: 20px;
+  color: #aaa;
 }
-.links{
-    display: flex;
-    justify-content: space-between;
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }

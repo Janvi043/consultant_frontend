@@ -101,7 +101,7 @@ function PostQuery() {
         <div className="messages">
           <h2>Queries</h2>
           {queries.map((query) => (
-            <div key={query._id} className="message" onClick={() => (window.location.href = `/message?${new URLSearchParams(query).toString()}`)}>
+            <div key={query._id} className="message" onClick={() => navigate(`/query/${query._id}`)}>
               <p className="message-text">{query.title}</p>
               <p className="message-date">Posted on: {new Date(query.createdAt).toLocaleDateString()}</p>
             </div>

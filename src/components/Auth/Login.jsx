@@ -2,7 +2,7 @@
 
 import Button from "@mui/material/Button";
 import axios from "axios";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./login.css";
 
@@ -18,7 +18,7 @@ const Login = () => {
         email: username,
         password,
       });
-      console.log(res);
+
       if (res.status === 200) {
         localStorage.setItem("token", res.data.token);
         navigate("/app");
@@ -33,25 +33,17 @@ const Login = () => {
     handleLogin(username, password);
   };
 
+  useEffect(() => {
+    if (localStorage.getItem("token")) navigate("/app");
+  }, []);
+
   return (
     <div className="login-container">
       <form onSubmit={handleSubmit} className="login-form">
         <h2>Welcome</h2>
         {error && <p className="error">{error}</p>}
-        <input
-          type="text"
-          placeholder="Email"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-          required
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
+        <input type="text" placeholder="Email" value={username} onChange={(e) => setUsername(e.target.value)} required />
+        <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
         <Button type="submit" variant="outlined" className="login_button">
           Login
         </Button>

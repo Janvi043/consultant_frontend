@@ -33,7 +33,6 @@ const HomePage = () => {
           "x-auth-token": `${localStorage.getItem("token")}`,
         },
       });
-      console.log(response.data);
       setQueries(response.data);
       return response.data;
     } catch (error) {
@@ -47,6 +46,11 @@ const HomePage = () => {
       await fetchResponses(data);
     };
   }, []);
+
+  const logout = () => {
+    localStorage.removeItem("token");
+    navigate("/login");
+  };
 
   const redirectToProfile = () => {
     navigate("/profile");
@@ -66,9 +70,14 @@ const HomePage = () => {
         <div className="logo">
           <img src="logo.png" alt="Logo" />
         </div>
-        <button className="profile-btn" onClick={redirectToProfile}>
-          Profile
-        </button>
+        <div>
+          <button className="profile-btn" onClick={logout}>
+            Logout
+          </button>
+          <button className="profile-btn" onClick={redirectToProfile}>
+            Profile
+          </button>
+        </div>
       </header>
       <div className="main-content">
         <section className="queries-posted">
