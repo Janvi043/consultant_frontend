@@ -1,6 +1,6 @@
 # Consultant Platform – Frontend
 
-This repository contains a full-stack consultant platform designed to connect **students** with **mentors, professors, and industry experts** for personalized academic and career guidance. The platform enables role-based access, secure authentication, and real-time query interactions through a clean and responsive user interface.
+This repository contains the **frontend** of a full-stack consultant platform designed to connect **students** with **mentors, professors, and industry experts** for personalized academic and career guidance. The platform enables role-based access, secure authentication, and real-time query interactions through a clean and responsive user interface.
 
 The application is built using **React.js** as part of a **MERN stack** architecture, with seamless integration to a backend powered by Node.js, Express.js, and MongoDB via RESTful APIs.
 
