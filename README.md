@@ -49,5 +49,4 @@ This frontend focuses on delivering an intuitive user experience while interacti
 
 ---
 
-## 📁 Project Structure
 
